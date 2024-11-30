@@ -1,0 +1,6 @@
+@Asiston_HostAddress = http://localhost:5124
+
+GET {{Asiston_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
