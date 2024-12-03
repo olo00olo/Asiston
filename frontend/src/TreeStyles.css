@@ -1,0 +1,79 @@
+/* TreeStyles.css */
+
+.main-content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tree-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tree-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .loading,
+  .error {
+    font-size: 18px;
+    color: #ff0000;
+  }
+  
+  .tree {
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  .tree-node {
+    margin: 5px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+    border-left: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .tree-node:hover {
+    background-color: #f0f0f0;
+    border-color: #3498db;
+  }
+  
+  .toggle-button {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .tree-node button {
+    margin-right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #2980b9;
+  }
+  
+  .tree-node > ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
